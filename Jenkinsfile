@@ -12,6 +12,7 @@ pipeline {
       }
       steps {
 	      echo 'ant -f test.xml -v'
+	sh 'ant -version'
         sh 'ant -f test.xml -v'
         junit 'reports/result.xml'
       }
