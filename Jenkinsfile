@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     MAJOR_VERSION = 1
-	BRANCH_NAME = 'master'
+	BRANCH_NAME = 'development'
   }
 
   stages {
